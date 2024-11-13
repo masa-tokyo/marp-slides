@@ -1,9 +1,8 @@
 ---
 marp: true
-theme: "gaia"
+theme: "base"
 header: "TITLE DATE"
 footer: "Footer"
-backgroundColor: white
 headingDivider: 1
 paginate: true
 size: 16:9
