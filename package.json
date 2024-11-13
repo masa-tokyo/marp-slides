@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx @marp-team/marp-cli -s ./src --theme-set ./styles/*.css"
+    "dev": "npx @marp-team/marp-cli -s ./src --theme-set ./styles/*.css",
+    "format": "prettier --write '**/*.{md,json}'"
   },
   "keywords": [],
   "author": "",
