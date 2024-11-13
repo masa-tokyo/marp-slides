@@ -175,3 +175,9 @@ dist
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node,macos
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
