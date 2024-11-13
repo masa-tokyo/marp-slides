@@ -1,6 +1,11 @@
 {
-  "markdownlint.config": {
+    // TODO(masaki): fix this
+    "pasteImage.defaultName": "Y-MM-DD-HH-mm-ss-SS",
+    "pasteImage.insertPattern": "${imageSyntaxPrefix}./images/${imageFileName}${imageSyntaxSuffix}",
+    "pasteImage.path": "${currentFileDir}/images",
+    "markdownlint.config": {
     "MD025": false,
-    "MD033": false
-  }
+    "MD033": false,
+    "MD024": false
+    }
 }
