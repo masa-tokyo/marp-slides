@@ -16,3 +16,8 @@ math: katex
 # Page 1
 
 - fuga
+
+# Centered title
+<!--_class: lead -->
+
+## aaa
