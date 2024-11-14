@@ -30,17 +30,14 @@ math: katex
   - FlutterGakkai
   - FlutterNinjas
 - 好きな 🍜
-  - 家系
-  - 鶏白湯
-  - つけ麺
-
-# はじめに
-<!--_class: lead -->
+  - 家系（武道家）
+  - 鶏白湯（ようすけ）
+  - つけ麺（武虎）
 
 # 「CI/CD」を聞いたことある人？🤚
 <!--_class: lead -->
 
-# 「CI/CD」使っている人？🤚
+# CI/CD を使っている人？🤚
 <!--_class: lead -->
 
 # はじめに
@@ -54,68 +51,80 @@ math: katex
 
 <!-- _footer: "出典: [ビジネス+IT](https://www.sbbit.jp/article/cont1/81640)" -->
 
-![w:760](./images/cicd-flowchart.png)
+![w:840](./images/cicd-flowchart.png)
 
 # CI について
 
-![w:760](./images/cicd-flowchart-ci.png)
+![w:840](./images/cicd-flowchart-ci.png)
 
 <!-- _footer: "出典: [ビジネス+IT](https://www.sbbit.jp/article/cont1/81640)" -->
 
 ![w:760](./images/cicd_flowchart.png)
 
-# 自力だと...
+# 手動だと...
 
-![w:760](./images/dart-analysis.png)
+![w:1080](./images/dart-analysis.png)
 
-![w:760](./images/flutter-test.png)
+![w:1080](./images/flutter-test.png)
 
-# CIだと...
+# CI だと...
 
 ![w:760](./images/ci-check.png)
 
 # CD とは
 
-![w:760](./images/cicd-flowchart-cd.png)
+![w:840](./images/cicd-flowchart-cd.png)
 
 <!-- _footer: "出典: [ビジネス+IT](https://www.sbbit.jp/article/cont1/81640)" -->
 
-# 自力だと...
+# 手動だと...
 
-#### 結構手間...
+#### コマンドラインでビルドして...
 
-![w:760](./images/ios-upload-1.png)
+![w:1080](./images/ios-upload-1.png)
 
-![w:760](./images/ios-upload-2.png)
+# 手動だと...
 
-![w:760](./images/ios-upload-3.png)
+#### Xcodeで色々...
 
-# CDだと...
+![w:1080](./images/ios-upload-2.png)
 
-#### 簡単🙌
+![w:1080](./images/ios-upload-3.png)
 
-![w:760](./images/start-new-build.png)
+# CD だと...
 
-![w:760](./images/pull-request.png)
+#### ボタン一つで完了 🙌
 
-# 自力だと...
+![w:400](./images/start-new-build.png)
+
+# CD だと...
+
+#### PRと紐付けることも出来る！
+
+![w:1080](./images/pull-request.png)
+
+# 手動だと...
 
 #### 環境の再現性がない...
 
 - ソースコード
-  - 実行ブランチ
-  - ビルド時引数
+- ビルド引数
 - ビルド環境
   - Flutter
   - Xcode
   - CocoaPods
 
+# CD だと...
 
-# CDだと...
-
-#### 全て固定出来る
+#### どのコミットがビルドされたのか記録が残る
 
 ![w:760](./images/codemagic-commit.png)
+
+# CD だと...
+
+#### 環境が固定出来る
+
+![w:760](./images/codemagic-build-mode.png)
 
 ![w:760](./images/codemagic-build-env.png)
 
@@ -123,30 +132,32 @@ math: katex
 
 <!-- _footer: "*n=950 by [Rollbar Research: Traditional Error Monitoring Is Missing the Mark, 2021](https://www.businesswire.com/news/home/20210216005484/en/Rollbar-Research-Shows-That-Traditional-Error-Monitoring-Is-Missing-the-Mark)" -->
 
-どのくらいの時間をバグ改修に使っていますか？
+#### どのくらいの時間をバグ改修に使っていますか？
 
 ![w:760](./images/statistics-1.png)
 
 # CI/CD の恩恵
 
-1ヶ月に直すと...
+#### 1ヶ月に直すと...
 
 ![w:760](./images/statistics-2.png)
 
 # CI/CD の恩恵
 
-人件費が5000円/時だとすると...
+#### 人件費が5000円/時だとすると...
 
 ![w:760](./images/statistics-3.png)
 
 # CI/CD の恩恵
 
-会社に5人いたら...
+#### 会社に5人いたら...
 
 ![w:760](./images/statistics-4.png)
 
 # 終わりに
 <!-- TODO: show on the 1st screen -->
+
+[CI/CD ツール(Codemagic) を使って Flutter アプリを App Store へ公開する](https://zenn.dev/codemagic/articles/3ade99d0485de4)
 
 ![w:1120](./images/zenn-blog.png)
 
