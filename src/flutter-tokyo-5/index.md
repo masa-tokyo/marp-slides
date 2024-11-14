@@ -128,6 +128,12 @@ math: katex
 
 ![w:760](./images/codemagic-build-env.png)
 
+# CI/CD 良さそう
+<!--_class: lead -->
+
+# どれくらい生産性上がるんだろう👀
+<!--_class: lead -->
+
 # CI/CD の恩恵
 
 <!-- _footer: "*n=950 by [Rollbar Research: Traditional Error Monitoring Is Missing the Mark, 2021](https://www.businesswire.com/news/home/20210216005484/en/Rollbar-Research-Shows-That-Traditional-Error-Monitoring-Is-Missing-the-Mark)" -->
