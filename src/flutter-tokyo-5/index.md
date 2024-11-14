@@ -161,6 +161,9 @@ math: katex
 
 ![w:1120](./images/zenn-blog.png)
 
+# Thank you!
+<!--_class: lead -->
+
 ---
 <!-- TODO: show entire screen -->
 
