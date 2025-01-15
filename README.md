@@ -1,5 +1,5 @@
 
-To display the slide, run the following command:
+To display slides, run the following command:
 ```shell
-npx @marp-team/marp-cli -s ./src/project-name
+npx @marp-team/marp-cli -s ./src
 ```
